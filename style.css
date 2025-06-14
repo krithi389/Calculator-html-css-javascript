@@ -1,0 +1,66 @@
+.all{
+    width:480px;
+    height:620px;
+    border:2px solid rgb(221, 215, 215);
+    margin:auto;
+    position: relative;
+    top:36px;
+    border-radius: 10px;
+   
+
+}
+
+.btn button{
+    padding:30px;
+    border-radius: 100%;
+    font-size: larger;
+    border: none;
+    flex:1;
+    cursor: pointer;
+    
+}
+.btn button:hover{
+    background-color: rgb(220, 199, 199);
+
+}
+
+
+
+.btn{
+    margin:12px;
+    row-gap: 1px;
+    column-gap: 20px;
+    display: flex;
+
+}
+
+
+.inp input{
+    width:471px;
+   height:130px;
+    border-radius: 8px;
+    border: none;
+    background-color: coral;
+    margin:3px;
+    outline: none;
+    font-size: xx-large;
+    text-align: right;
+    color: aliceblue;
+    
+  
+    
+    
+    
+    
+   
+}
+.btn>.equal{
+    background-color: rgb(233, 92, 41);
+    color: aliceblue;
+}
+.btn>.equal:hover{
+   background-color:rgb(205, 95, 51);
+   
+   font-size: x-large;
+
+}
